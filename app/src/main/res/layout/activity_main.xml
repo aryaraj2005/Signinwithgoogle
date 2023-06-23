@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_margin="20dp"
+        android:layout_height="300dp">
+
+      <ImageView
+          android:layout_width="250dp"
+          android:id="@+id/userimg"
+          android:layout_height="300dp"
+          tools:srcCompat="@drawable/users" >
+
+
+      </ImageView>
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:text="Browse"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:backgroundTint="@color/white"
+            android:padding="5dp"
+            android:id="@+id/browsetext"
+            android:layout_height="wrap_content">
+
+
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:text="Roll no"
+        android:textStyle="bold"
+        android:id="@+id/rolltext"
+        android:gravity="center"
+        android:padding="5sp"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+
+        android:layout_height="wrap_content" >
+
+    </EditText>
+
+        <EditText
+        android:layout_width="match_parent"
+        android:text="Enter your name"
+        android:textStyle="bold"
+        android:id="@+id/nametext"
+        android:gravity="center"
+        android:padding="5sp"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+
+        android:layout_height="wrap_content" >
+
+    </EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:text="Your course"
+            android:textStyle="bold"
+            android:id="@+id/coursetext"
+            android:gravity="center"
+            android:padding="5sp"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+
+            android:layout_height="wrap_content" >
+
+        </EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:text="your Contact no."
+            android:textStyle="bold"
+            android:id="@+id/contacttext"
+            android:gravity="center"
+            android:padding="5sp"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:layout_height="wrap_content" >
+
+        </EditText>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign up"
+            android:id="@+id/signbtn"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/white">
+
+        </Button>
+    </LinearLayout>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
